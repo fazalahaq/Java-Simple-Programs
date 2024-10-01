@@ -389,8 +389,8 @@ public class Openchrome{
 		}
 	}
 }*/
-
-public class Openchrome{
+// approach 1
+/*public class Openchrome{
 	public static void main(String[] argu) {
 		int a [] = new int [5];
 		
@@ -400,8 +400,26 @@ public class Openchrome{
 		System.out.println("Length of an array is "+a.length);
 		System.out.println("Index value of 1 is: "+a[1]);
 	}
+}*/
+// Approach 2
+public class Openchrome{
+	public static void main(String[] argu) {
+		int a []= {100,200,300,400,500,600};
+		
+		//System.out.println(a.length);
+		//System.out.println("The value on index no 4 is " + a[4]);
+		
+		/*for (int i=0; i <= a.length; i++) {
+			System.out.println(a[i]);
+		}*/
+		
+		//Enhanced for loop
+		
+		for(int x:a) {
+			System.out.println(x);
+		}
+	}
 }
-
 
 
 
