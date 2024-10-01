@@ -394,10 +394,11 @@ public class Openchrome{
 	public static void main(String[] argu) {
 		int a [] = new int [5];
 		
-		int a[0]=100;
-		int a[1]=200;
+		 a[0]=100;
+		 a[1]=200;
 		
-		System.out.println(a);
+		System.out.println("Length of an array is "+a.length);
+		System.out.println("Index value of 1 is: "+a[1]);
 	}
 }
 
