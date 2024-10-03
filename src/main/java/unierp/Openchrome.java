@@ -402,22 +402,56 @@ public class Openchrome{
 	}
 }*/
 // Approach 2
-public class Openchrome{
+
+/*public class Openchrome{
 	public static void main(String[] argu) {
 		int a []= {100,200,300,400,500,600};
 		
-		//System.out.println(a.length);
-		//System.out.println("The value on index no 4 is " + a[4]);
+		System.out.println(a.length);
+		System.out.println("The value on index no 4 is " + a[4]);
 		
-		/*for (int i=0; i <= a.length; i++) {
+		for (int i=0; i <= a.length; i++) {
 			System.out.println(a[i]);
-		}*/
 		
-		//Enhanced for loop
+		
+		Enhanced for loop
 		
 		for(int x:a) {
 			System.out.println(x);
 		}
+	}
+}*/
+
+
+/*public class Openchrome{
+	public static void main(String[] argu) {
+		int a []= {100,200,300};
+		
+		for(int x:a) {
+			System.out.println(x);
+		}
+	}
+}*/
+
+/*public class Openchrome{
+	public static void main(String[] argu) {
+		int a [] = {100,200,300,400};
+		
+		for(int x : a) {
+			System.out.println(x);
+		}
+	}
+}*/
+public class Openchrome{
+	public static void main(String[] argu) {
+		int a [] = new int [5];
+		a[0]= 100;
+		a[1]= 100;
+		a[3]=200;
+		a[4]= 500;
+		a [2]= 600; 
+		
+		System.out.print(a[0]);
 	}
 }
 
