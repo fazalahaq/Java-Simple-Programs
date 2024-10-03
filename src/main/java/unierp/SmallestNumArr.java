@@ -1,5 +1,7 @@
 package unierp;
 
+import java.util.Arrays;
+
 /*public class SmallestNumArr {
 
 	public static void main(String[] args) {
@@ -27,13 +29,15 @@ public class SmallestNumArr{
 		arr[3]= 67;
 		arr[4]= 78;
 		
-		int smallest = arr[0];
-		for(int i= 0; i<arr.length; i++) {
-			if(arr[i]<smallest) {
-				smallest= arr[i];
-			}
-		}
+//		int smallest = arr[0];
+//		for(int i= 0; i<arr.length; i++) {
+//			if(arr[i]<smallest) {
+//				smallest= arr[i];
+//			}
+//		}
 		
-		System.out.println("The smallest number in the given array is : " + smallest);
+		 Arrays.sort(arr);
+		 
+		System.out.println("The smallest number in the given array is : " + arr[0]);
 	}
 }
