@@ -442,18 +442,28 @@ public class Openchrome{
 		}
 	}
 }*/
-public class Openchrome{
+/*public class Openchrome{
 	public static void main(String[] argu) {
 		int a [] = new int [5];
 		a[0]= 100;
-		a[1]= 100;
+		a[1]= 200;
 		a[3]=200;
 		a[4]= 500;
 		a [2]= 600; 
 		
-		System.out.print(a[0]);
+		System.out.println("Duplicate values are given below");
+		
+		for(int i =0; i<=a.length; i++ ) {
+			for (int j=i+1; j<a.length; j++) {
+				if (a[i]==a[j]) {
+					System.out.println(a[j]);
+				}
+			}
+		}
 	}
 }
+*/
+
 
 
 
